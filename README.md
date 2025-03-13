@@ -1,15 +1,17 @@
 # PostgreSQL Tuning Guide
 
-A practical guide for tuning PostgreSQL parameters based on workload and hardware specifications. This project provides example SQL scripts and recommendations for tuning key PostgreSQL parameters, including memory, parallelism, JIT, and connection settings. 
+A practical guide for tuning PostgreSQL parameters based on workload and hardware specifications. 
+This project provides example SQL scripts and recommendations for tuning key PostgreSQL parameters, including memory, parallelism, JIT, and connection settings. 
 
 ---
 
 ## Project Overview
 
-This repository serves as a one-stop resource for tuning PostgreSQL parameters. Instead of separate files, all examples, scenarios, and documentation are embedded here. The tuning recommendations are based on the document "Important PostgreSQL Parameters: Understanding Their Importance and Recommended Values."
+This file serves as a resource for tuning PostgreSQL parameters.
 
 ### Disclaimer
-The recommended values serve as a starting point. Optimal settings depend on workload type, hardware specifications, and database size. Always analyze your system’s performance and adjust based on real-world usage and monitoring.
+The recommended values serve as a starting point. Optimal settings depend on workload type, hardware specifications, and database size. 
+Always analyze your system’s performance and adjust based on real-world usage and monitoring.
 
 ---
 
