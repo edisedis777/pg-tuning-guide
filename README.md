@@ -1,7 +1,6 @@
 # PostgreSQL Tuning Guide
 [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
 [![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)](#)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
 A practical guide for tuning PostgreSQL parameters based on workload and hardware specifications. 
@@ -284,3 +283,6 @@ WHERE name IN ('work_mem', 'shared_buffers', 'maintenance_work_mem');
 - Hardware: Examples assume 256 GB RAM and 48 cores; adjust values for your system.
 - Monitoring: Use EXPLAIN ANALYZE and pg_stat_activity to measure impact.
 - Contributions: Feel free to fork this repo and submit pull requests with additional examples.
+
+## License
+Distributed under the GNU Affero General Public License v3.0 License. See `LICENSE` for more information.
